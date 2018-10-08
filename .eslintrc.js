@@ -5,17 +5,8 @@ module.exports = {
     node: true,
     jasmine: true
   },
-  plugins: [
-    'import',
-    'promise',
-    'compat',
-    'node',
-    'jasmine'
-  ],
-  extends: [
-    'eslint:recommended',
-    'plugin:promise/recommended'
-  ],
+  plugins: ['import', 'promise', 'compat', 'node', 'jasmine'],
+  extends: ['eslint:recommended', 'plugin:promise/recommended'],
   parser: 'babel-eslint',
   parserOptions: {
     sourceType: 'module',
@@ -35,7 +26,6 @@ module.exports = {
     'import/export': 2,
     indent: ['error', 2],
     'linebreak-style': 0,
-    quotes: ['error', 'single'],
     semi: ['error', 'always'],
     'no-unused-vars': ['warn'],
     'no-console': 0
